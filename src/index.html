@@ -4,15 +4,22 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Page title</title>
-  <link rel="stylesheet" href="./css/style.css" />
+  <title>JSON</title>
   <script type="module" src="./index.js"></script>
 </head>
 
 <body>
-
-  <!-- ❗️❗️❗️ Add partials like so for every page -->
-  <include src="./partials/example.html"></include>
+  <from id="form">
+    <label>
+      Name
+      <input name="name" type="text" id="name" placeholder="Enter your name" />
+    </label>
+    <label>
+      Age
+      <input name="age" type="number" id="age" placeholder="Enter your age" />
+    </label>
+    <button id="button" type="submit">Submit</button>
+  </from>
 </body>
 
 </html>
